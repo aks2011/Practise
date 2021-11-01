@@ -1,0 +1,88 @@
+body{
+	font-family: 'Noto Sans Display', sans-serif;
+	margin: 0 auto;
+	width: 960px;
+}
+h1{
+	color: burlywood;
+	margin-top: 70px;
+}
+
+h2, h3{
+	color: burlywood;
+}
+#heading{
+	text-align:center ;
+	margin-top: 70px;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 110px;
+}
+nav li {
+	display: inline;
+	float: left;
+}
+nav a:link, nav a:visited{
+	background-color: rosybrown;
+	color: white;
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 10px 0;
+}
+nav a:hover{
+	background-color: black;
+}
+aside{
+	width: 280px;
+	float: right;
+	background-color: tan;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	margin-left: 10px;
+}
+.photo-herb{
+	float: left;
+	margin-right: 10px;
+}
+.tea-plant{
+	float: right;
+	margin-left: 10px;
+}
+header{
+	background-image: url("Images/shutterstock-722877097-1567144254.jpg");
+	height: 150px;
+	
+}
+header h1{
+	color: rgba(256,256,256, 0.7);
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 40px;
+}
+footer{
+	margin-left: 40px 0;
+}
+footer nav a:link, footer nav a:visited{
+	color: gray;
+	text-decoration: none;
+	display: block;
+	width: 160px;
+	text-align: center;
+	background-color: white;
+}
+footer nav a:hover{
+	color: black;
+}
+
+#survey{
+	width: 243px;
+	height: 170;
+	text-align: center;
+	float: right;
+	display: flex;
+	margin-left: 20px;
+}
